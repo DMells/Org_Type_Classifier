@@ -1,2 +1,10 @@
 # Org_Type_Classifier
-A short program allowing classification of organisation types using orgtype-classifier
+This program makes use of https://github.com/spendnetwork/orgtype-classifier and determines whether or not an organisation is a company or not a company, based on the output of the classifier having taken a string containing the name of an organisation.
+
+The module allows for the use of argument parsing, as follows :
+
+When running the program from the terminal (ensuring connection to the localhost on port 8080 to the classifier above), the following arguments can be called :
+
+--dir : being the directory where your data is saved (the default is '' i.e. the current location)
+--datafile : being the csvfile name (default is set to 'sample_orgs.csv')
+
