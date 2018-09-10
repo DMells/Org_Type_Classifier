@@ -6,5 +6,6 @@ The module allows for the use of argument parsing, as follows :
 When running the program from the terminal (ensuring connection to the localhost on port 8080 to the classifier above), the following arguments can be called :
 
 --dir : being the directory where your data is saved (the default is '' i.e. the current location)
+
 --datafile : being the csvfile name (default is set to 'sample_orgs.csv')
 
