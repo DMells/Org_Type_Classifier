@@ -7,5 +7,7 @@ When running the program from the terminal (ensuring connection to the localhost
 
 --dir : being the directory where your data is saved (the default is '' i.e. the current location)
 
---datafile : being the csvfile name (default is set to 'sample_orgs.csv')
+--datafile : being the csv file name (default is set to 'sample_orgs.csv')
+
+Currently the program assumes the cloned orgtype-classifier folder is in the same directory as the core python file.
 
